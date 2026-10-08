@@ -1,6 +1,6 @@
 # Required numerical CSV data
 
-The plotting script `FQET_manuscript_all_plots.py` expects the following files in this `data/` folder:
+All ten input CSV files listed below are **present in this directory** as uploaded to GitHub:
 
 - `bh_taskaware_family_comparison.csv`
 - `bh_history_geometry.csv`
@@ -13,6 +13,6 @@ The plotting script `FQET_manuscript_all_plots.py` expects the following files i
 - `ising_h3_geometry_crossing.csv`
 - `ising_h3_cost_crossing.csv`
 
-**These ten CSV files are not included in the starter package.** Insert the actual analysis CSV files produced for the manuscript before claiming the full quantitative figures are reproducible. Do not substitute synthetic data.
+The figure script `../FQET_manuscript_all_plots.py` reads these files and produces the composite and standalone plot PDFs.
 
-The plotting script reads all ten files, even though some are not directly used in the four main composite figures.
+**Scope:** These are analysis outputs, not substitutes for the original numerical simulation, optimization, or validation scripts. Complete end-to-end regeneration of the input CSVs remains pending until those scripts and their parameters are uploaded and tested.
