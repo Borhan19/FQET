@@ -1,0 +1,981 @@
+{
+  "results": [
+    {
+      "model": "Ising",
+      "architecture": "ERJ",
+      "lags": [],
+      "derivative_order": 1,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "D1_0",
+        "D1_1",
+        "D1_2",
+        "D1_3"
+      ],
+      "feasible": true,
+      "total_shots": 3104710,
+      "setting_shots": [
+        1,
+        1457523,
+        121350,
+        531723,
+        509463,
+        484650
+      ],
+      "largest_spectral_distance": 0.12484919813808217,
+      "largest_cut_gap": 1.9990674044421952e-07,
+      "nonconverged": 0,
+      "optimization_status": "Optimization terminated successfully",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": true,
+          "total_shots": 3620425,
+          "largest_spectral_distance": 0.11456957400429978,
+          "unconverged_fits": 0
+        },
+        {
+          "round": 2,
+          "feasible": true,
+          "total_shots": 3104710,
+          "largest_spectral_distance": 0.12484919813808217,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": 3104710,
+      "active_support": "ERJ",
+      "effective_shots": 3104710,
+      "inherited_from": null
+    },
+    {
+      "model": "Ising",
+      "architecture": "ERJK2",
+      "lags": [],
+      "derivative_order": 2,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "D1_0",
+        "D1_1",
+        "D1_2",
+        "D1_3",
+        "D2_0",
+        "D2_1",
+        "D2_2",
+        "D2_3"
+      ],
+      "feasible": true,
+      "total_shots": 3092726,
+      "setting_shots": [
+        1,
+        1448178,
+        105775,
+        546546,
+        491596,
+        493154,
+        1,
+        7473,
+        1,
+        1
+      ],
+      "largest_spectral_distance": 0.12686184458788563,
+      "largest_cut_gap": 1.928017375231461e-07,
+      "nonconverged": 0,
+      "optimization_status": "Optimization terminated successfully",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": true,
+          "total_shots": 4196776,
+          "largest_spectral_distance": 0.11456957400430319,
+          "unconverged_fits": 0
+        },
+        {
+          "round": 2,
+          "feasible": true,
+          "total_shots": 3092726,
+          "largest_spectral_distance": 0.12686184458788563,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": 3092726,
+      "active_support": "ERJK2",
+      "effective_shots": 3092726,
+      "inherited_from": null
+    },
+    {
+      "model": "Ising",
+      "architecture": "H2",
+      "lags": [
+        0.06
+      ],
+      "derivative_order": 0,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "R(tc-0.06)"
+      ],
+      "feasible": true,
+      "total_shots": 4542861,
+      "setting_shots": [
+        1,
+        2917088,
+        1625772
+      ],
+      "largest_spectral_distance": 0.1282832916852443,
+      "largest_cut_gap": 1.8959092554747536e-07,
+      "nonconverged": 0,
+      "optimization_status": "Optimization terminated successfully",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": true,
+          "total_shots": 4885435,
+          "largest_spectral_distance": 0.14935855971934403,
+          "unconverged_fits": 0
+        },
+        {
+          "round": 2,
+          "feasible": true,
+          "total_shots": 4542861,
+          "largest_spectral_distance": 0.1282832916852443,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": 4542861,
+      "active_support": "H2",
+      "effective_shots": 4542861,
+      "inherited_from": null
+    },
+    {
+      "model": "Ising",
+      "architecture": "H2",
+      "lags": [
+        0.1
+      ],
+      "derivative_order": 0,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "R(tc-0.1)"
+      ],
+      "feasible": true,
+      "total_shots": 4566261,
+      "setting_shots": [
+        1,
+        3111682,
+        1454578
+      ],
+      "largest_spectral_distance": 0.16108187651779413,
+      "largest_cut_gap": 1.9864572708104544e-07,
+      "nonconverged": 0,
+      "optimization_status": "Optimization terminated successfully",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": true,
+          "total_shots": 4756179,
+          "largest_spectral_distance": 0.16824599931912418,
+          "unconverged_fits": 0
+        },
+        {
+          "round": 2,
+          "feasible": true,
+          "total_shots": 4566261,
+          "largest_spectral_distance": 0.16108187651779413,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": 4566261,
+      "active_support": "H2",
+      "effective_shots": 4566261,
+      "inherited_from": null
+    },
+    {
+      "model": "Ising",
+      "architecture": "H2",
+      "lags": [
+        0.2
+      ],
+      "derivative_order": 0,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "R(tc-0.2)"
+      ],
+      "feasible": true,
+      "total_shots": 351409155,
+      "setting_shots": [
+        1,
+        253791974,
+        97617180
+      ],
+      "largest_spectral_distance": 0.2425885402627556,
+      "largest_cut_gap": 1.991735291912225e-07,
+      "nonconverged": 0,
+      "optimization_status": "Optimization terminated successfully",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": true,
+          "total_shots": 18576259453,
+          "largest_spectral_distance": 0.24913071239592086,
+          "unconverged_fits": 0
+        },
+        {
+          "round": 2,
+          "feasible": true,
+          "total_shots": 351409155,
+          "largest_spectral_distance": 0.2425885402627556,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": 351409155,
+      "active_support": "H2",
+      "effective_shots": 351409155,
+      "inherited_from": null
+    },
+    {
+      "model": "Ising",
+      "architecture": "H2",
+      "lags": [
+        0.7
+      ],
+      "derivative_order": 0,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "R(tc-0.7)"
+      ],
+      "feasible": false,
+      "total_shots": null,
+      "setting_shots": null,
+      "largest_spectral_distance": 0.2737098023409963,
+      "largest_cut_gap": 1.8700513383998474e-07,
+      "nonconverged": 0,
+      "optimization_status": "intrinsic/lift budget already exhausted",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": false,
+          "total_shots": null,
+          "largest_spectral_distance": 0.2737098023409963,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": null,
+      "active_support": "H2",
+      "effective_shots": null,
+      "inherited_from": null
+    },
+    {
+      "model": "Ising",
+      "architecture": "H3",
+      "lags": [
+        0.06,
+        0.1
+      ],
+      "derivative_order": 0,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "R(tc-0.06)",
+        "R(tc-0.1)"
+      ],
+      "feasible": true,
+      "total_shots": 4566106,
+      "setting_shots": [
+        1,
+        3112874,
+        1,
+        1453230
+      ],
+      "largest_spectral_distance": 0.16117359361819675,
+      "largest_cut_gap": 1.9989756329732988e-07,
+      "nonconverged": 0,
+      "optimization_status": "Optimization terminated successfully",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": true,
+          "total_shots": 4948935,
+          "largest_spectral_distance": 0.16824599931908577,
+          "unconverged_fits": 0
+        },
+        {
+          "round": 2,
+          "feasible": true,
+          "total_shots": 4566106,
+          "largest_spectral_distance": 0.16117359361819675,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": 4566106,
+      "active_support": "H2",
+      "effective_shots": 4542861,
+      "inherited_from": {
+        "architecture": "H2",
+        "lags": [
+          0.06
+        ],
+        "note": "zero coefficients for extra layer; do not pay for inactive settings"
+      }
+    },
+    {
+      "model": "Ising",
+      "architecture": "H3",
+      "lags": [
+        0.06,
+        0.2
+      ],
+      "derivative_order": 0,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "R(tc-0.06)",
+        "R(tc-0.2)"
+      ],
+      "feasible": true,
+      "total_shots": 4984188,
+      "setting_shots": [
+        1,
+        2918557,
+        1734486,
+        331144
+      ],
+      "largest_spectral_distance": 0.10956913213462306,
+      "largest_cut_gap": 1.9865837583635249e-07,
+      "nonconverged": 0,
+      "optimization_status": "Optimization terminated successfully",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": true,
+          "total_shots": 5763862,
+          "largest_spectral_distance": 0.1695660920994273,
+          "unconverged_fits": 0
+        },
+        {
+          "round": 2,
+          "feasible": true,
+          "total_shots": 4984188,
+          "largest_spectral_distance": 0.10956913213462306,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": 4984188,
+      "active_support": "H2",
+      "effective_shots": 4542861,
+      "inherited_from": {
+        "architecture": "H2",
+        "lags": [
+          0.06
+        ],
+        "note": "zero coefficients for extra layer; do not pay for inactive settings"
+      }
+    },
+    {
+      "model": "Ising",
+      "architecture": "H3",
+      "lags": [
+        0.06,
+        0.7
+      ],
+      "derivative_order": 0,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "R(tc-0.06)",
+        "R(tc-0.7)"
+      ],
+      "feasible": true,
+      "total_shots": 4560644,
+      "setting_shots": [
+        1,
+        2917404,
+        1626815,
+        16424
+      ],
+      "largest_spectral_distance": 0.12789183477448712,
+      "largest_cut_gap": 1.961220705368888e-07,
+      "nonconverged": 0,
+      "optimization_status": "Optimization terminated successfully",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": true,
+          "total_shots": 5231411,
+          "largest_spectral_distance": 0.15234352774572651,
+          "unconverged_fits": 0
+        },
+        {
+          "round": 2,
+          "feasible": true,
+          "total_shots": 4560644,
+          "largest_spectral_distance": 0.12789183477448712,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": 4560644,
+      "active_support": "H2",
+      "effective_shots": 4542861,
+      "inherited_from": {
+        "architecture": "H2",
+        "lags": [
+          0.06
+        ],
+        "note": "zero coefficients for extra layer; do not pay for inactive settings"
+      }
+    },
+    {
+      "model": "Ising",
+      "architecture": "H3",
+      "lags": [
+        0.1,
+        0.2
+      ],
+      "derivative_order": 0,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "R(tc-0.1)",
+        "R(tc-0.2)"
+      ],
+      "feasible": true,
+      "total_shots": 4854343,
+      "setting_shots": [
+        1,
+        3145187,
+        1519461,
+        189694
+      ],
+      "largest_spectral_distance": 0.15558209411224622,
+      "largest_cut_gap": 1.9342550337808628e-07,
+      "nonconverged": 0,
+      "optimization_status": "Optimization terminated successfully",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": true,
+          "total_shots": 5136374,
+          "largest_spectral_distance": 0.15870639294510733,
+          "unconverged_fits": 0
+        },
+        {
+          "round": 2,
+          "feasible": true,
+          "total_shots": 4854343,
+          "largest_spectral_distance": 0.15558209411224622,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": 4854343,
+      "active_support": "H2",
+      "effective_shots": 4566261,
+      "inherited_from": {
+        "architecture": "H2",
+        "lags": [
+          0.1
+        ],
+        "note": "zero coefficients for extra layer; do not pay for inactive settings"
+      }
+    },
+    {
+      "model": "Ising",
+      "architecture": "H3",
+      "lags": [
+        0.1,
+        0.7
+      ],
+      "derivative_order": 0,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "R(tc-0.1)",
+        "R(tc-0.7)"
+      ],
+      "feasible": true,
+      "total_shots": 5001958,
+      "setting_shots": [
+        3384,
+        3267936,
+        1528739,
+        201899
+      ],
+      "largest_spectral_distance": 0.15916806753936982,
+      "largest_cut_gap": 1.9856757220611254e-07,
+      "nonconverged": 0,
+      "optimization_status": "Optimization terminated successfully",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": true,
+          "total_shots": 10943780,
+          "largest_spectral_distance": 0.16790555242841715,
+          "unconverged_fits": 0
+        },
+        {
+          "round": 2,
+          "feasible": true,
+          "total_shots": 5001958,
+          "largest_spectral_distance": 0.15916806753936982,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": 5001958,
+      "active_support": "H2",
+      "effective_shots": 4566261,
+      "inherited_from": {
+        "architecture": "H2",
+        "lags": [
+          0.1
+        ],
+        "note": "zero coefficients for extra layer; do not pay for inactive settings"
+      }
+    },
+    {
+      "model": "Ising",
+      "architecture": "H3",
+      "lags": [
+        0.2,
+        0.7
+      ],
+      "derivative_order": 0,
+      "horizons": [
+        0.05
+      ],
+      "masks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "setting_names": [
+        "E",
+        "record(tc)",
+        "R(tc-0.2)",
+        "R(tc-0.7)"
+      ],
+      "feasible": true,
+      "total_shots": 83696406,
+      "setting_shots": [
+        1,
+        50826656,
+        15285466,
+        17584283
+      ],
+      "largest_spectral_distance": 0.2270931621941475,
+      "largest_cut_gap": 1.9863254161096855e-07,
+      "nonconverged": 0,
+      "optimization_status": "Optimization terminated successfully",
+      "iterations": [
+        {
+          "round": 1,
+          "feasible": true,
+          "total_shots": 697434869,
+          "largest_spectral_distance": 0.24490140291860538,
+          "unconverged_fits": 0
+        },
+        {
+          "round": 2,
+          "feasible": true,
+          "total_shots": 83696406,
+          "largest_spectral_distance": 0.2270931621941475,
+          "unconverged_fits": 0
+        }
+      ],
+      "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+      "raw_alternating_shots": 83696406,
+      "active_support": "H3",
+      "effective_shots": 83696406,
+      "inherited_from": null
+    }
+  ],
+  "best_history": {
+    "model": "Ising",
+    "architecture": "H2",
+    "lags": [
+      0.06
+    ],
+    "derivative_order": 0,
+    "horizons": [
+      0.05
+    ],
+    "masks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "setting_names": [
+      "E",
+      "record(tc)",
+      "R(tc-0.06)"
+    ],
+    "feasible": true,
+    "total_shots": 4542861,
+    "setting_shots": [
+      1,
+      2917088,
+      1625772
+    ],
+    "largest_spectral_distance": 0.1282832916852443,
+    "largest_cut_gap": 1.8959092554747536e-07,
+    "nonconverged": 0,
+    "optimization_status": "Optimization terminated successfully",
+    "iterations": [
+      {
+        "round": 1,
+        "feasible": true,
+        "total_shots": 4885435,
+        "largest_spectral_distance": 0.14935855971934403,
+        "unconverged_fits": 0
+      },
+      {
+        "round": 2,
+        "feasible": true,
+        "total_shots": 4542861,
+        "largest_spectral_distance": 0.1282832916852443,
+        "unconverged_fits": 0
+      }
+    ],
+    "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+    "raw_alternating_shots": 4542861,
+    "active_support": "H2",
+    "effective_shots": 4542861,
+    "inherited_from": null
+  },
+  "best_instantaneous": {
+    "model": "Ising",
+    "architecture": "ERJK2",
+    "lags": [],
+    "derivative_order": 2,
+    "horizons": [
+      0.05
+    ],
+    "masks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "setting_names": [
+      "E",
+      "record(tc)",
+      "D1_0",
+      "D1_1",
+      "D1_2",
+      "D1_3",
+      "D2_0",
+      "D2_1",
+      "D2_2",
+      "D2_3"
+    ],
+    "feasible": true,
+    "total_shots": 3092726,
+    "setting_shots": [
+      1,
+      1448178,
+      105775,
+      546546,
+      491596,
+      493154,
+      1,
+      7473,
+      1,
+      1
+    ],
+    "largest_spectral_distance": 0.12686184458788563,
+    "largest_cut_gap": 1.928017375231461e-07,
+    "nonconverged": 0,
+    "optimization_status": "Optimization terminated successfully",
+    "iterations": [
+      {
+        "round": 1,
+        "feasible": true,
+        "total_shots": 4196776,
+        "largest_spectral_distance": 0.11456957400430319,
+        "unconverged_fits": 0
+      },
+      {
+        "round": 2,
+        "feasible": true,
+        "total_shots": 3092726,
+        "largest_spectral_distance": 0.12686184458788563,
+        "unconverged_fits": 0
+      }
+    ],
+    "note": "Reconstructed task-aware ALTERNATING/SCREENED optimum, not manuscript global-search source",
+    "raw_alternating_shots": 3092726,
+    "active_support": "ERJK2",
+    "effective_shots": 3092726,
+    "inherited_from": null
+  },
+  "global_optimality_certified": false,
+  "method": "finite lag screen + fixed-shot spectral LP + alternating shared shot allocation"
+}

@@ -1,0 +1,6 @@
+platform,case,lags,first_layer_J_overlap,second_layer_K2_overlap,mean_angle_first_deg,mean_angle_second_deg,normalized_gram_cond,interpretation
+Bose-Hubbard,local/jet-like history,"(0.025,0.050)",0.942613,0.914842,13.8096,16.7854,392026.282805,finite-difference-like and severely conditioned
+Bose-Hubbard,practical sparse memory,"(0.100,0.200)",0.313262,0.271243,56.0286,58.6799,2305.889523,genuinely nonlocal finite memory
+Ising,Jtau=0.05 optimized history,"(0.075,0.260)",0.952014,0.583124,11.8813,39.7446,10023.24257,first layer strongly jet-like; second mixed
+Ising,Jtau=0.10 optimized history,"(0.045,0.145)",0.982604,0.843071,7.1028,22.4577,107518.0729,derivative-like history
+Ising,Jtau=0.15 optimized history,"(0.025,0.0525)",0.994618,0.970057,3.9401,9.5071,4798873.841,nearly pure temporal jet; strong ill-conditioning

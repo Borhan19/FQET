@@ -1,0 +1,21 @@
+{
+  "status": "independent propagation and isolated work check",
+  "cases": [
+    {
+      "model": "Bose-Hubbard",
+      "dimension": 35,
+      "maximum_H_difference": 0.0,
+      "dop853_vs_independent_magnus": 3.201206316742427e-08,
+      "maximum_unitarity_defect": 3.623723981904212e-08,
+      "work_minus_energy": 4.087393997917466e-09
+    },
+    {
+      "model": "Ising",
+      "dimension": 16,
+      "maximum_H_difference": 2.220446049250313e-16,
+      "dop853_vs_independent_magnus": 5.293545404640369e-10,
+      "maximum_unitarity_defect": 1.0881157919580752e-08,
+      "work_minus_energy": 1.589801474688457e-06
+    }
+  ]
+}
