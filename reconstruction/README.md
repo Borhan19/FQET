@@ -88,7 +88,7 @@ python FQET_schematics.py --output-dir output --no-show
 
 ## Scientific/reproducibility status
 
-See [`RECONSTRUCTION_LEDGER.md`](RECONSTRUCTION_LEDGER.md). Please review this code scientifically before merging into the source repository. In particular, do not silently replace the already published `v1.0-submission` tag with new reconstructed code; publish a new distinctly labeled revision following successful full reproducibility tests.
+See [`RECONSTRUCTION_LEDGER.md`](RECONSTRUCTION_LEDGER.md). This independently reconstructed code is available on the repository's default `main` branch and still requires full scientific review before it can support the manuscript's strongest reproducibility claims. In particular, do not silently replace the already published `v1.0-submission` tag with new reconstructed code; publish a new distinctly labeled revision following successful full reproducibility tests.
 
 ## Citation/permissions
 
