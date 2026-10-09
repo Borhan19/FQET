@@ -1,42 +1,56 @@
 # Finite Quantum Engineering Thermodynamics (FQET)
 
-This repository accompanies the manuscript **Finite Quantum Engineering Thermodynamics**.
+This repository accompanies the manuscript *Finite Quantum Engineering Thermodynamics*.
 
-## Current status
+## What is on this branch?
 
-The figure-generation scripts and **all ten CSV input files** are uploaded. They allow the supplied plotting program to recreate the manuscript plots, subject to the software dependencies described below. The original microscopic simulation, optimization, calibration, and independent-validation programs are **not yet included**. Therefore, this repository is **not yet a complete end-to-end numerical reproduction package**, and no submission release should be tagged until those programs and their run instructions have been added and checked.
+**You are viewing the `reconstruction-2026-10-09` branch.** It contains an independently reconstructed numerical implementation, compiled from the physical definitions and methods in the manuscript and Supplemental Material. **It is not the missing original simulation source and does not establish exact end-to-end reproducibility of all published numerical claims.**
 
-## Where the files are
+**Start here:** [Reconstruction code and instructions](reconstruction/README.md) | [Validation report](reconstruction/VALIDATION_REPORT.md) | [Reconstruction ledger](reconstruction/RECONSTRUCTION_LEDGER.md) | [Machine-readable results manifest](reconstruction/RESULTS_MANIFEST.json).
 
-The project files are currently in [`FQET_GitHub_upload_starter/`](FQET_GitHub_upload_starter/):
+## Validated calculations
 
-- [`FQET_manuscript_all_plots.py`](FQET_GitHub_upload_starter/FQET_manuscript_all_plots.py): creates four multi-panel manuscript plots plus ten standalone quantitative PDF plots from CSV inputs.
-- [`FQET_schematics.py`](FQET_GitHub_upload_starter/FQET_schematics.py): creates illustrative Bose--Hubbard and Ising schematics.
-- [`data/`](FQET_GitHub_upload_starter/data/): the ten uploaded CSV input files.
-- [`simulations/`](FQET_GitHub_upload_starter/simulations/): currently documentation only; the microscopic numerical code is still needed.
-- [`requirements.txt`](FQET_GitHub_upload_starter/requirements.txt): Python dependencies.
+According to the completed local run and saved outputs in `reconstruction/results/`:
 
-## Recreate the figures
+| Check | Reconstructed result |
+| --- | ---: |
+| Python unit tests | 11 passed |
+| Bose--Hubbard eight-corner calibration | 8 corners × 81 forecast times × 15 events = 9,720 spectral fits |
+| Spectral fits flagged nonconverged | 0 |
+| Reconstructed holdout | 72 points × 4 preparations × 81 times × 15 events = 349,920 predictions |
+| Largest absolute holdout error | 0.067949% |
+| Finite parameter-grid audit | 125 points × 81 times × 15 events = 151,875 checks |
+| Largest sampled pairwise preparation-tube upper bound | 0.729785% |
+| Ising representation check | One finite lag-grid comparison at g/J = 1.5 and Jτ = 0.05 |
 
-Use Python 3.10+ and run these commands from the **repository root**:
+The sampled 0.729785% figure **is not a uniform continuous-domain certificate**. The original joint optimization of coefficients, lags, and shared measurement repetitions, the reported 0.7304% continuous-domain sensitivity envelope, the original 0.1278% holdout campaign, and the six-field Ising phase map have **not** been independently reconstructed to the original specification.
+
+## Code, data, and reproducibility
+
+- [`reconstruction/`](reconstruction/): model construction, independent time propagators, spectral optimization, calibration and validation programs, automated tests, saved numeric outputs and provenance notes.
+- [`reconstruction/data/`](reconstruction/data/): ten **original tabulated reference CSV datasets** supplied separately from newly generated validation outputs.
+- [`reconstruction/results/`](reconstruction/results/): reconstructed calibration tables and tests, with source and parameter information in the results manifest.
+- [`reconstruction/FQET_manuscript_all_plots.py`](reconstruction/FQET_manuscript_all_plots.py): manuscript plots from the tabulated reference datasets.
+- [`reconstruction/FQET_schematics.py`](reconstruction/FQET_schematics.py): illustrative working-medium diagrams.
+
+The earlier plotting-focused package remains in [`FQET_GitHub_upload_starter/`](FQET_GitHub_upload_starter/) for provenance. It is not the reconstructed simulation package.
+
+## Minimal verification
+
+From the repository root:
 
 ```bash
-cd FQET_GitHub_upload_starter
+cd reconstruction
 python -m pip install -r requirements.txt
-python FQET_manuscript_all_plots.py --data-dir data --out-dir output
-python FQET_schematics.py --output-dir output --no-show
+python -m pytest -q
+python run_reconstruction.py smoke
+python run_reconstruction.py geometry
 ```
 
-On Windows, `py` can be substituted for `python`.
+The manuscript plot generator additionally requires a functioning LaTeX installation to render its text.
 
-The main figure script uses Matplotlib's external LaTeX rendering (`text.usetex=True`). Install a working TeX distribution (such as MiKTeX or TeX Live) with the required math packages before running it. Generated PDF figures are written to `output/`.
+## Release status
 
-The presence of the CSV files has been checked; full regeneration of all numerical results has **not** yet been independently verified from this repository.
+The original public [`v1.0-submission` release](https://github.com/Borhan19/QThEngineering/releases/tag/v1.0-submission) is a separate, earlier snapshot and was **not modified** by this reconstruction upload. Its description should not be interpreted as proof that the missing original numerical programs were recovered. Any future release of this branch should explicitly say **independent reconstruction** and link the validation ledger.
 
-## Complete numerical reproducibility
-
-Before making a final submission release, add the original Bose--Hubbard and Ising simulation programs, validation scripts, parameter/settings files, and documented execution order. Confirm their output against the manuscript. See [UPLOAD_CHECKLIST.md](FQET_GitHub_upload_starter/UPLOAD_CHECKLIST.md).
-
-## Versioned submission release
-
-After verifying the complete source and data, publish a GitHub release tagged **`v1.0-submission`**. Until then, do not cite a release URL as if the complete reproducibility package has already been published.
+No claim of rigorous global optimality for the outer representation-selection search, nor of a proved continuous-parameter domain envelope, follows from the tests on this branch.
