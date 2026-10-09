@@ -2,7 +2,7 @@
 
 This folder contains an **independent reconstruction**, not the unavailable
 original numerical source for *Finite Quantum Engineering Thermodynamics*.
-It is prepared for review on the separate GitHub branch `reconstruction-2026-10-09`.
+It is now included in the default GitHub branch `main` and also retained on the `reconstruction-2026-10-09` branch.
 The earlier public `v1.0-submission` tag is **not changed**.
 
 ## Included and verified locally
