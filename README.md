@@ -51,6 +51,6 @@ The manuscript plot generator additionally requires a functioning LaTeX installa
 
 ## Release status
 
-The previously published [`v1.0-submission` release](https://github.com/Borhan19/QThEngineering/releases/tag/v1.0-submission) is a separate, earlier snapshot and was **not modified** by this reconstruction upload. Its description should not be interpreted as proof that the missing original numerical programs were recovered. Any future release of this branch should explicitly say **independent reconstruction** and link the validation ledger.
+The previously published [`v1.0-submission` release](https://github.com/Borhan19/FQET/releases/tag/v1.0-submission) is a separate, earlier snapshot and was **not modified** by this reconstruction upload. Its description should not be interpreted as proof that the missing original numerical programs were recovered. Any future release of this branch should explicitly say **independent reconstruction** and link the validation ledger.
 
 No claim of rigorous global optimality for the outer representation-selection search, nor of a proved continuous-parameter domain envelope, follows from the tests on this branch.
