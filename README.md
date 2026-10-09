@@ -2,9 +2,9 @@
 
 This repository accompanies the manuscript *Finite Quantum Engineering Thermodynamics*.
 
-## What is on this branch?
+## What is on this repository?
 
-**You are viewing the `reconstruction-2026-10-09` branch.** It contains an independently reconstructed numerical implementation, compiled from the physical definitions and methods in the manuscript and Supplemental Material. **It is not the missing original simulation source and does not establish exact end-to-end reproducibility of all published numerical claims.**
+**The `main` branch now contains the independently reconstructed implementation**, assembled from the physical models and methods described in the manuscript and Supplemental Material. **It is not the unavailable original simulation source and does not establish exact end-to-end reproduction of all the manuscript's numerical claims.**
 
 **Start here:** [Reconstruction code and instructions](reconstruction/README.md) | [Validation report](reconstruction/VALIDATION_REPORT.md) | [Reconstruction ledger](reconstruction/RECONSTRUCTION_LEDGER.md) | [Machine-readable results manifest](reconstruction/RESULTS_MANIFEST.json).
 
@@ -51,6 +51,6 @@ The manuscript plot generator additionally requires a functioning LaTeX installa
 
 ## Release status
 
-The original public [`v1.0-submission` release](https://github.com/Borhan19/QThEngineering/releases/tag/v1.0-submission) is a separate, earlier snapshot and was **not modified** by this reconstruction upload. Its description should not be interpreted as proof that the missing original numerical programs were recovered. Any future release of this branch should explicitly say **independent reconstruction** and link the validation ledger.
+The previously published [`v1.0-submission` release](https://github.com/Borhan19/QThEngineering/releases/tag/v1.0-submission) is a separate, earlier snapshot and was **not modified** by this reconstruction upload. Its description should not be interpreted as proof that the missing original numerical programs were recovered. Any future release of this branch should explicitly say **independent reconstruction** and link the validation ledger.
 
 No claim of rigorous global optimality for the outer representation-selection search, nor of a proved continuous-parameter domain envelope, follows from the tests on this branch.
